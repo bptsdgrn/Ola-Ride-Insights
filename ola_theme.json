@@ -1,0 +1,275 @@
+{
+  "name": "Ola Green Theme",
+  "dataColors": [
+    "#00E676",
+    "#69F0AE",
+    "#00BFA5",
+    "#1DE9B6",
+    "#76FF03",
+    "#B9F6CA",
+    "#00C853",
+    "#CCFF90"
+  ],
+  "background": "#0D0D0D",
+  "foreground": "#00E676",
+  "tableAccent": "#00E676",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "color": { "solid": { "color": "#00E67633" } }
+          }
+        ],
+        "fontColor": [
+          {
+            "color": { "solid": { "color": "#F0F0F0" } }
+          }
+        ],
+        "fontSize": [13]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#0D0D0D" } },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#0D0D0D" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "title": {
+      "*": {
+        "color": [
+          { "color": { "solid": { "color": "#00E676" } } }
+        ],
+        "fontSize": [18],
+        "fontFamily": ["Segoe UI"]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [
+          {
+            "color": { "solid": { "color": "#00E676" } },
+            "fontSize": 28
+          }
+        ],
+        "label": [
+          {
+            "color": { "solid": { "color": "#AAAAAA" } },
+            "fontSize": 12
+          }
+        ],
+        "background": [
+          {
+            "color": { "solid": { "color": "#1A1A1A" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "transparency": 0
+          }
+        ],
+        "header": [
+          {
+            "fontColor": { "solid": { "color": "#00E676" } },
+            "background": { "solid": { "color": "#111111" } },
+            "fontSize": 13,
+            "outline": "None"
+          }
+        ],
+        "items": [
+          {
+            "fontColor": { "solid": { "color": "#F0F0F0" } },
+            "background": { "solid": { "color": "#1A1A1A" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "transparency": 0
+          }
+        ],
+        "plotArea": [
+          {
+            "transparency": 100
+          }
+        ],
+        "valueAxis": [
+          {
+            "gridlineColor": { "solid": { "color": "#1E1E1E" } },
+            "labelColor": { "solid": { "color": "#AAAAAA" } }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#AAAAAA" } }
+          }
+        ]
+      }
+    },
+    "barChart": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "transparency": 0
+          }
+        ],
+        "valueAxis": [
+          {
+            "gridlineColor": { "solid": { "color": "#1E1E1E" } },
+            "labelColor": { "solid": { "color": "#AAAAAA" } }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#AAAAAA" } }
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "transparency": 0
+          }
+        ],
+        "valueAxis": [
+          {
+            "gridlineColor": { "solid": { "color": "#1E1E1E" } },
+            "labelColor": { "solid": { "color": "#AAAAAA" } }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#AAAAAA" } }
+          }
+        ]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "transparency": 0
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": { "solid": { "color": "#F0F0F0" } },
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "pieChart": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "transparency": 0
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": { "solid": { "color": "#F0F0F0" } },
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "scatterChart": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "transparency": 0
+          }
+        ],
+        "valueAxis": [
+          {
+            "gridlineColor": { "solid": { "color": "#1E1E1E" } },
+            "labelColor": { "solid": { "color": "#AAAAAA" } }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#AAAAAA" } }
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": { "solid": { "color": "#F0F0F0" } }
+          }
+        ]
+      }
+    },
+    "treemap": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#111111" } },
+            "transparency": 0
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#0D0D0D" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI",
+      "color": "#00E676"
+    },
+    "title": {
+      "fontSize": 18,
+      "fontFace": "Segoe UI",
+      "color": "#00E676"
+    },
+    "header": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI",
+      "color": "#00E676"
+    },
+    "label": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI",
+      "color": "#F0F0F0"
+    }
+  }
+}
